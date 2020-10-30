@@ -71,13 +71,8 @@
       var heat = L.heatLayer(data, {
         radius: 15,
         blur: 15,
-        max: 0.1,
-        gradient: {
-                    0.0: 'green',
-                    0.05: 'yellow',
-                    0.1: 'red'
-                },
-      })
+        max: 0.05,
+              })
 
       // Add the heatlayer to the map
       heat.addTo(map)
