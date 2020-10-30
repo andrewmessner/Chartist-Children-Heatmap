@@ -71,10 +71,10 @@
       var heat = L.heatLayer(data, {
         radius: 15,
         blur: 15,
-        max: 1,
+        max: 0.2,
         gradient: {
                     0.0: 'green',
-                    0.01: 'yellow',
+                    0.1: 'yellow',
                     0.2: 'red'
                 },
       })
